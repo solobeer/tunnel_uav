@@ -1,0 +1,8 @@
+<launch>
+  <node name="opt_imu_fusion_node" pkg="opt_imu_fusion" type="opt_imu_fusion_node" output="screen" >
+    <rosparam file = "$(find opt_imu_fusion)/config/config.yaml" command="load"/>
+  </node>
+  <node name="vision_y" pkg="path_plan" type="vision_y" output="screen">
+  </node>
+
+</launch>

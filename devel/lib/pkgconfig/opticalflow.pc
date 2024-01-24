@@ -1,0 +1,8 @@
+prefix=/home/hzb/corridor_ws/devel
+
+Name: opticalflow
+Description: Description of opticalflow
+Version: 0.0.0
+Cflags: -I/home/hzb/corridor_ws/devel/include -I/home/hzb/corridor_ws/src/opticalflow/include
+Libs: -L${prefix}/lib -lopticalflow
+Requires: geometry_msgs message_generation message_runtime roscpp roslib rospy serial std_msgs

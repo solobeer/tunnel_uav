@@ -1,0 +1,6 @@
+<launch>
+  <node name="recordmp4_node" pkg="opt_imu_fusion" type="recordmp4_node" output="screen" >
+    <rosparam file = "$(find opt_imu_fusion)/config/config.yaml" command="load"/>
+  </node>
+
+</launch>

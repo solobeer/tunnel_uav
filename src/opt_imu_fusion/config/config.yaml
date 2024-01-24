@@ -1,0 +1,23 @@
+optical:
+  param: 
+    f_x : 1068.08166
+    f_y : 1068.08166
+ #18.72 repsents 0.6 m / s in normalization_space
+ #1280*960camera
+    max_pixel_per_frame: 18.72
+  windowSize: 
+    x: 2
+    vel: 10
+  kalman:
+    P: [0.001, 0,
+        0, 0.01]
+
+    Q: [ 0.01, 0.001,
+        0.001, 0.1 ]
+        
+    R: [ 0.1, 0.1,   
+        0, 0.01 ]
+
+recordmp4:
+  save_path: "/home/denext/stair.mp4"
+  image_topic: "/usb_cam_800/image_raw"

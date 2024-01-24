@@ -1,0 +1,8 @@
+prefix=/home/hzb/corridor_ws/devel
+
+Name: opt_imu_fusion
+Description: Description of opt_imu_fusion
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

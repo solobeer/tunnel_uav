@@ -1,0 +1,61 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/dji/catkin_ws/devel/include/**",
+        "/home/dji/Prometheus/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/dji/catkin_ws/src/avoid_pkg/include/**",
+        "/home/dji/Prometheus/Modules/planning/FastPlanner/bspline_opt/include/**",
+        "/home/dji/vins-mono/src/VINS-Mono/camera_model/include/**",
+        "/home/dji/Prometheus/Modules/ego_planner/ego-planner-swarm/src/planner/drone_detect/include/**",
+        "/home/dji/Prometheus/Modules/ego_planner/ego-planner-swarm/src/planner/plan_manage/include/**",
+        "/home/dji/catkin_ws/src/mavros/libmavconn/include/**",
+        "/home/dji/catkin_ws/src/mavros/mavros/include/**",
+        "/home/dji/catkin_ws/src/mavros/mavros_msgs/include/**",
+        "/home/dji/Prometheus/Modules/mocap_ekf/include/**",
+        "/home/dji/Prometheus/Modules/ego_planner/ego-planner-swarm/src/uav_simulator/mockamap/include/**",
+        "/home/dji/Prometheus/Modules/ego_planner/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server/include/**",
+        "/home/dji/hzb/catkin_ws/src/opt_imu_fusion/include/**",
+        "/home/dji/Prometheus/Modules/planning/FastPlanner/path_searching/include/**",
+        "/home/dji/Prometheus/Modules/planning/FastPlanner/plan_env/include/**",
+        "/home/dji/Prometheus/Modules/ego_planner/ego-planner-swarm/src/uav_simulator/Utils/pose_utils/include/**",
+        "/home/dji/Prometheus/Modules/control/include/**",
+        "/home/dji/Prometheus/Simulator/gazebo_simulator/include/**",
+        "/home/dji/Prometheus/Modules/planning/global_planning/include/**",
+        "/home/dji/Prometheus/Modules/planning/hybrid_astar/include/**",
+        "/home/dji/Prometheus/Modules/planning/local_planner/include/**",
+        "/home/dji/Prometheus/Modules/mission/include/**",
+        "/home/dji/Prometheus/Modules/planning/FastPlanner/plan_manage/include/**",
+        "/home/dji/Prometheus/Modules/planning/Utils/pose_utils/include/**",
+        "/home/dji/Prometheus/Modules/slam/include/**",
+        "/home/dji/Prometheus/Modules/ground_station/include/**",
+        "/home/dji/Prometheus/Modules/swarm_control/include/**",
+        "/home/dji/Prometheus/Modules/planning/swarm_planning/include/**",
+        "/home/dji/Prometheus/Modules/ugv_control/include/**",
+        "/home/dji/Prometheus/Modules/ego_planner/ego-planner-swarm/src/uav_simulator/Utils/quadrotor_msgs/include/**",
+        "/home/dji/hzb/catkin_ws/src/sanxia/include/**",
+        "/home/dji/Prometheus/Modules/ego_planner/ego-planner-swarm/src/uav_simulator/so3_control/include/**",
+        "/home/dji/Prometheus/Modules/ego_planner/ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator/include/**",
+        "/home/dji/hzb/catkin_ws/src/sub/include/**",
+        "/home/dji/catkin_ws/src/mavros/test_mavros/include/**",
+        "/home/dji/Prometheus/Modules/planning/FastPlanner/traj_utils/include/**",
+        "/home/dji/Prometheus/Modules/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/dji/Prometheus/Modules/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/dji/Prometheus/Modules/turtlebot3/turtlebot3_slam/include/**",
+        "/home/dji/Prometheus/Modules/ego_planner/ego-planner-swarm/src/uav_simulator/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

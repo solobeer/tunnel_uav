@@ -1,0 +1,2 @@
+lidar_opticalflow_fusion:nlink_parser:opt_imu_fusion:opticalflow:path_plan:web_video_server
+-DCATKIN_DEVEL_PREFIX=/home/hzb/corridor_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hzb/corridor_ws/install -G Unix Makefiles

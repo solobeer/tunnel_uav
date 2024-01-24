@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="opticalflow" type="opticalflow" name="opticalflow" output="screen">
+    </node>
+    
+</launch>
